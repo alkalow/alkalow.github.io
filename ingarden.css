@@ -208,8 +208,12 @@ span.post-title-date+span, span.post-title-date {
     padding-right: 15px;
     padding-left: 10px;
     margin-topp: -3px;
-
 }
+
+.postsiblings {
+   margin-top: 3px;
+}
+
 div#commentpreviewplace+p {
     display: none;
 }
