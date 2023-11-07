@@ -136,6 +136,10 @@ margin: 0px !important;
   border-radius: 4px;
 }
 
+.sign {
+  line-height: 1.25;
+}
+
 .post-title-user {
 font-size: 0.95rem;
 }
