@@ -81,13 +81,24 @@ text-shadow: 0 0 6px #cd80a3;
 
 
 /*записи и комментарии*/ 
+.comment-content {
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+
+.post-content {
+  margin: 0px !important;
+}
+
 .post-content, .comment-content {
-   margin: 0px !important;
+   padding-right: 7px;
+   padding-left: 7px;
    background-color: #baa9b3;
    box-shadow: 0px 0px 3px #baa9b3, 0px 0px 3px #baa9b3, 0px 0px 3px #baa9b3;
    border: 3px solid transparent;
    border-image: linear-gradient(to left top, #161014 10%, transparent 30%, transparent 70%, #e87aad 90%);
    border-image-slice: 1;
+   min-height: auto;
 }
 
 div.post-content: {
@@ -98,11 +109,6 @@ margin: 0px !important;
     font-size: 0.85rem;
     line-height: 1.25;
     font-weight: 100;
-}
-
-.post-content, .comment-content {
-  padding-right: 7px;
-  padding-left: 7px;
 }
 
 .post-opt.col-12.col-md-6 {
@@ -126,10 +132,6 @@ margin: 0px !important;
    margin-top: 3px;
 }
 
-.post-content, .comment-content {
-  min-height: auto;
-}
-
 .post-avatar img {
   border-radius: 4px;
 }
@@ -140,6 +142,13 @@ font-size: 0.95rem;
 
 .user::before {
 display: none;
+}
+
+.textarea-wrapper > textarea {
+background: #e6dbe2;
+font-size: 0.85rem;
+line-height: 1.25;
+font-weight: 100;
 }
 
 
