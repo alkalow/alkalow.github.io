@@ -54,15 +54,15 @@ div#app {
 
 ::selection {
 background: #363636; 
-color:#f2f2f2;
+color:#f4d5e9;
 }
 ::-moz-selection {
 background: #363636; 
-color:#f2f2f2;}
+color:#f4d5e9;}
 
 ::-webkit-selection {
 background: #363636; 
-color:#f2f2f2;}
+color:#f4d5e9;}
 
 
 
@@ -82,21 +82,26 @@ text-shadow: 0 0 6px #cd80a3;
 
 /*записи и комментарии*/ 
 .comment-content {
+   margin-left: 0px !important;
+   margin-right: 0px !important;
    margin-top: 20px;
    margin-bottom: 20px;
 }
 
 .post-content {
-  margin: 0px !important;
+   margin-left: 0px !important;
+   margin-right: 0px !important;
+   margin-top: 0px !important;
+   margin-bottom: 30px;
 }
 
-.post-content, .comment-content {
+.post-content,  .comment-content {
    padding-right: 7px;
    padding-left: 7px;
    background-color: #baa9b3;
    box-shadow: 0px 0px 3px #baa9b3, 0px 0px 3px #baa9b3, 0px 0px 3px #baa9b3;
    border: 3px solid transparent;
-   border-image: linear-gradient(to left top, #161014 10%, transparent 30%, transparent 70%, #e87aad 90%);
+   border-image: linear-gradient(to left top, #161014 10%, transparent 30%, transparent 70%, #cd80a3 90%);
    border-image-slice: 1;
    min-height: auto;
 }
@@ -106,15 +111,14 @@ margin: 0px !important;
 }
 
 .post-text, .comment-text {
-    font-size: 0.85rem;
     line-height: 1.25;
-    font-weight: 100;
 }
 
 .post-opt.col-12.col-md-6 {
   margin-bottom: 2px !important;
   position: sticky;
   top: 100%;
+  font-size: 0.85rem !important;
 }
 
 .comment-base .comment-text + div {
@@ -146,14 +150,12 @@ font-size: 0.95rem;
 }
 
 .user::before {
-display: none;
+
 }
 
 .textarea-wrapper > textarea {
 background: #e6dbe2;
-font-size: 0.85rem;
 line-height: 1.25;
-font-weight: 100;
 }
 
 
@@ -228,6 +230,20 @@ h3.left-menu-text {
 
 /*мобильное отображение*/
 @media (max-width: 768px) {
+.fas, .far > * {
+   font-size: 0.75rem !important;
+}
+
+.tag_bar {
+   font-size: 1rem !important;
+}
+
+.tag_bar > span {
+margin-right: 0px;
+padding-right: 3px;
+padding-left: 3px;
+}
+
 div#app {
     padding: 7px !important;
 }
@@ -262,15 +278,15 @@ body.bodybg {
 }
 
 div.crumbs {
-   padding-top: 15px;
+   padding-top: 5px;
 }
 .avatar-select-list {
-margin-top: -35px;
-margin-bottom: -35px;
+margin-top: -15px;
+margin-bottom: -15px;
 }
 .avatar-select-label {
-   min-width: 90px !important;
-   max-height: 90px !important;
+   max-width: 90px !important;
+   min-height: 90px !important;
 }
  .post-avatar img {
     max-width: 70px;
@@ -360,9 +376,7 @@ span.emj-dropdown {
 
 .postdesc {
 background: #e6dbe2;
-font-size: 0.85rem;
 line-height: 1.25;
-font-weight: 100;
 }
 
 
@@ -461,10 +475,6 @@ button.close {
    width: 2px;
 }
 
-.text-right {
-  font-size: 0.9rem;
-}
-
 
 /*ссылки*/
 .py-4 a, .crumbs a {
@@ -525,4 +535,68 @@ display: none;
 
 #footer {
 display: none;
+}
+
+
+
+/*ошибки*/
+.row.w-100, .comment-text + div {
+  margin-bottom: 2px !important;
+  position: sticky;
+  top: 100%;
+  margin-bottom: 0px !important;
+}
+
+.postsiblings {
+font-size: 0.85rem !important;
+}
+
+.tag_bar {
+   padding-bottom: 5px;
+}
+
+.post-opt {
+   font-size: 0.85rem;
+}
+
+label.menu__btn {
+  width: 25px;
+  height: 25px;
+}
+
+.menu__btn > span, .menu__btn > span::before, .menu__btn > span::after {
+    box-shadow: 0 0 6px #cd80a3, 0 0 8px #cd80a3, 0 0 10px #cd80a3;
+    background: #000000;
+    height: 2px;
+    transform: rotateY(45deg);
+}
+
+.user::before {
+  content: url(https://i.ibb.co/wd6VH8r/userbefore13.png);
+  padding-right: 2px;
+}
+
+[src="/i/user.png"] {
+  content: url(https://i.ibb.co/wd6VH8r/userbefore13.png);
+  padding-right: 2px;
+}
+
+p.quotation br {
+    display: none;
+}
+p.quotation {
+    margin: 0px;
+    font-weight: lighter;
+    font-style: oblique;
+    font-size: 0.85rem;
+    border-left: 3px solid #cd80a3;
+    padding-top: 0rem !important;
+}
+
+.post-text, .comment-text, .comment-base {
+   color: #212529;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+color: #212529;
 }
