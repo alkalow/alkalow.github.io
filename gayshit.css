@@ -586,8 +586,6 @@ p.quotation br {
 }
 p.quotation {
     margin: 0px;
-    font-weight: lighter;
-    font-style: oblique;
     font-size: 0.85rem;
     border-left: 3px solid #cd80a3;
     padding-top: 0rem !important;
