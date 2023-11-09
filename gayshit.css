@@ -228,8 +228,12 @@ h3.left-menu-text {
 @media (max-width: 768px) {
     .fas,
     .far > * {
-        font-size: 0.75rem !important;
+        font-size: 1.2rem !important;
     }
+
+    .tag_bar > span {
+        font-size: 1.2rem !important;
+}
 
     .tag_bar {
         font-size: 1rem !important;
@@ -240,6 +244,13 @@ h3.left-menu-text {
         padding-right: 3px;
         padding-left: 3px;
     }
+
+    .fas, .far, .tag_bar > * {
+        padding-top: 0.3rem !important;
+        padding-bottom: 0.3rem !important;
+        padding-left: 1px !important;
+        padding-right: 1px !important;
+}
 
     div#app {
         padding: 7px !important;
