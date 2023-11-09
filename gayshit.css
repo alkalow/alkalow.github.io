@@ -593,3 +593,7 @@ a.user {
 span[data-target="#deleteconfirmmodal"] {
    color: #000000;
 }
+
+.messageform br {
+    display: none;
+}
