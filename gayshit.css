@@ -491,7 +491,7 @@ button.close {
     text-decoration: none;
 }
 
-.fa, .fas {
+.fas.fa-heart {
     color: #000;
 }
 
