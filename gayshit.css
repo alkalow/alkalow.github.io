@@ -673,3 +673,14 @@ img.flag {
     padding-bottom: 1px;
     padding-top: 0px;
 }
+
+
+
+/*плеер*/
+[src*="soundcloud.com/player/"] {
+    height: 26px;
+    background: linear-gradient(90deg,#ff6845,#544c52);
+    border-radius: 20px;
+    padding: 3px;
+    filter: hue-rotate(325deg) saturate(70%);
+}
