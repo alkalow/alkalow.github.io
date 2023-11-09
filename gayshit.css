@@ -491,6 +491,10 @@ button.close {
     text-decoration: none;
 }
 
+.fa, .fas {
+    color: #000;
+}
+
 .liked .fas,
 .reposted .fas,
 .bookmarked .fas {
