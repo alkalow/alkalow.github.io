@@ -656,3 +656,7 @@ span[data-target="#deleteconfirmmodal"] {
 .messageform br {
     display: none;
 }
+
+.post-title-date {
+    color: #000000;
+}
