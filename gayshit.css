@@ -657,6 +657,7 @@ span[data-target="#deleteconfirmmodal"] {
     display: none;
 }
 
-.post-title-date {
+span.post-title-date + a {
+    font-size: 0.75rem;
     color: #000000;
 }
