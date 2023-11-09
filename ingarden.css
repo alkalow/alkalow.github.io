@@ -1641,7 +1641,4 @@ span.comments_count span {
    font-size: 0 !important;
 }
 
-span[data-target="#deleteconfirmmodal"] {
-margin-left: -10px;
-}
 }
