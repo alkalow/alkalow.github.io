@@ -690,10 +690,6 @@ label.custom-file-label {
     transition: 0.2s cubic-bezier(0, 0, 1, 0.12);
 }
 
-.textareabg br {
-    display: none;
-}
-
 .textareabg p {
     margin-bottom: 0px;
 }
@@ -1009,8 +1005,6 @@ i.fas.fa-chevron-down {
 
 .avatar-select-label {
     border: 1px solid #948573;
-    border-radius: 3px;
-    margin-bottom: 5px;
 max-height: 100px;
 object-fit: cover;
 object-position: top;
@@ -1046,7 +1040,6 @@ z-index: 1;
   font-size: 18px;
   font-family: 'gnyrwn971';
   line-height: 1.2;
-  color: #36200a;
   font-weight: 100;
 }
 
@@ -1453,7 +1446,6 @@ box-shadow: inset 0 11px 10px 1px #ff7b51d4;
     margin-bottom: 2px !important;  
     position: sticky;
     top: 100%;
-    margin-bottom: 0px !important;
 }
 .comment-text+div {
     margin-bottom: 2px !important;
@@ -1554,7 +1546,6 @@ a:hover {
   padding: 5px;
   padding-top: 2px !important;
   padding-bottom: 2px !important;
-  font-size: .9rem;
   line-height: 1.6;
   border-radius: .25rem;
   transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
@@ -1592,4 +1583,44 @@ span.comments_count a {
 
 #page__admincontact {
 display: none;
+}
+
+
+/*==============прочие исправления================*/
+
+
+.w-100 {
+    font-family: Frenchpress freefont !important;
+    font-size: 21px;
+}
+
+.messageform br {
+    display: none;
+}
+
+.comment-text {
+    font-size: 13px;
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.3;
+}
+
+.post-title-user {
+   color: #36200a;
+   font-family: 'gnyrwn971';
+   font-size: 23px;
+}
+
+span.post-title-date + a {
+   color: #36200a;
+   font-size: 18px;
+   font-family: 'gnyrwn971';
+}
+
+@media (max-width: 780px) {
+.pagination a {
+color: #36200a !important;
+}
+.pagination {
+color: #36200a !important;
+}
 }
