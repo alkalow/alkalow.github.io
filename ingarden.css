@@ -1616,11 +1616,18 @@ span.post-title-date + a {
    font-family: 'gnyrwn971';
 }
 
-@media (max-width: 780px) {
+.pagination a:hover {
+color: #806247 !important;
+}
+
+.pagination:hover {
+color: #806247 !important;
+}
+
 .pagination a {
 color: #36200a !important;
 }
+
 .pagination {
 color: #36200a !important;
-}
 }
