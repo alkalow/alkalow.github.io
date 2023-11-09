@@ -1631,3 +1631,13 @@ color: #36200a !important;
 .pagination {
 color: #36200a !important;
 }
+
+@media (max-width: 780px) {
+span.comments_count span::before {
+   padding: 0px;
+}
+  
+span.comments_count span {
+   font-size: 0 !important;
+}
+}
