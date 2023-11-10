@@ -674,6 +674,10 @@ img.flag {
     padding-top: 0px;
 }
 
+div#app {
+    overflow-y: scroll;
+}
+
 
 
 /*плеер*/
