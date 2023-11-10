@@ -678,6 +678,35 @@ body {
     overflow-y: scroll;
 }
 
+@media (max-width: 768px) {
+i.fas.fa-heart,
+i.fas.fa-retweet,
+i.fas.fa-bookmark,
+i.fas.fa-trash-alt,
+i.fas.fa-exclamation-triangle,
+i.fas.fa-quote-left {
+    font-size: 1rem !important;
+}
+
+span.comments_count a {
+    font-size: 1rem;
+}
+
+span.comments_count span::before {
+    font-size: 1rem;
+}
+
+span.comments_count {
+    margin-right: -20px;
+}
+
+.post-opt.col-12.col-md-6.text-right {
+    max-width: 100px;
+    position: sticky;
+    left: 100%;
+ }
+}
+
 
 
 /*плеер*/
