@@ -674,7 +674,7 @@ img.flag {
     padding-top: 0px;
 }
 
-div#app {
+body {
     overflow-y: scroll;
 }
 
