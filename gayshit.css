@@ -82,6 +82,10 @@ div#app {
     text-shadow: 0 0 6px #cd80a3;
 }
 
+.pagination-goto {
+color: #000;
+}
+
 
 
 /*записи и комментарии*/
