@@ -1731,11 +1731,11 @@ span.post-title-date + a {
 }
 
 [src="/i/blog.png"] {
-    content: url(https://i.ibb.co/09XZXyk/diarytag1.png) !important;
+    content: url(https://i.ibb.co/2FdF7zH/diarytag2.png) !important;
 }
 
 .blog::before {
-    content: url(https://i.ibb.co/09XZXyk/diarytag1.png) !important;
+    content: url(https://i.ibb.co/2FdF7zH/diarytag2.png) !important;
 }
 
 a.user.post-title-user {
