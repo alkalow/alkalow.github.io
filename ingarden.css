@@ -1714,6 +1714,10 @@ span.post-title-date + a {
     }
 }
 
+.post-header {
+    margin-left: 0px;
+}
+
 
 /*==============иконочбки================*/
 .user::before {
@@ -1738,6 +1742,6 @@ a.user.post-title-user {
     margin-left: -3px;
 }
 
-a.user.post-title-user > .user::before {
+a.user.post-title-user::before {
     padding-right: 2px !important;
 }
