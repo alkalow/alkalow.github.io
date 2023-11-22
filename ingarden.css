@@ -204,9 +204,7 @@ a.user.post-title-user {
     font-size: 22px;
 }
 
-.user:before,
-.tag:before,
-.blog:before {
+.tag:before {
     display: none;
 }
 
