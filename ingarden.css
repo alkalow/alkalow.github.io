@@ -1713,3 +1713,25 @@ span.post-title-date + a {
         font-size: 0 !important;
     }
 }
+
+
+/*==============иконочбки================*/
+.user::before {
+    content: url(https://i.ibb.co/Smw2yBK/persontag.png) !important;
+    padding-right: 2px;
+}
+
+[src="/i/user.png"] {
+    content: url(https://i.ibb.co/Smw2yBK/persontag.png) !important;
+    padding-right: 2px;
+}
+
+[src="/i/blog.png"] {
+    content: url(https://i.ibb.co/09XZXyk/diarytag1.png) !important;
+    padding-right: 1px;
+}
+
+.blog::before {
+    content: url(https://i.ibb.co/09XZXyk/diarytag1.png) !important;
+    padding-right: 1px;
+}
