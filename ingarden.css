@@ -1721,21 +1721,33 @@ span.post-title-date + a {
 
 /*==============иконочбки================*/
 .user::before {
-    content: url(https://i.ibb.co/Smw2yBK/persontag.png) !important;
+    content: url(https://i.ibb.co/ZhdnqJs/friend-ball.png) !important;
     padding-right: 1px;
+    display: inline-flex;
+    height: 13px;
+    width: 15px;
 }
 
 [src="/i/user.png"] {
-    content: url(https://i.ibb.co/Smw2yBK/persontag.png) !important;
-    padding-right: 1px;
+    content: url(https://i.ibb.co/ZhdnqJs/friend-ball.png) !important;
+    padding-right: 2px;
+   display: inline-flex;
+   height: 12px;
+   width: 14px;
 }
 
 [src="/i/blog.png"] {
-    content: url(https://i.ibb.co/2FdF7zH/diarytag2.png) !important;
+    content: url(https://i.ibb.co/MnD53YH/adventure-guide.png) !important;
+    display: inline-flex;
+    height: 13px;
+    width: 15px;
 }
 
 .blog::before {
-    content: url(https://i.ibb.co/2FdF7zH/diarytag2.png) !important;
+    content: url(https://i.ibb.co/MnD53YH/adventure-guide.png) !important;
+    display: inline-flex;
+    height: 13px;
+    width: 15px;
 }
 
 a.user.post-title-user {
