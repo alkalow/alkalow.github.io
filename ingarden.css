@@ -1725,7 +1725,7 @@ span.post-title-date + a {
     padding-right: 1px;
     display: inline-flex;
     height: 13px;
-    width: 15px;
+    width: 14px;
 }
 
 [src="/i/user.png"] {
@@ -1756,4 +1756,5 @@ a.user.post-title-user {
 
 a.user.post-title-user::before {
     padding-right: 2px !important;
+    width: 15px !important;
 }
