@@ -29,12 +29,20 @@
 
 .pc-menu {
     margin-left: 0px;
-    margin-right: 60px;
+    margin-right: 40px;
     padding-right: 30px;
     padding-bottom: 5px;
     padding-top: 3px;
     background-color: #baa9b3;
     box-shadow: 0px 0px 5px #baa9b3, 0px 0px 5px #baa9b3, 0px 0px 5px #baa9b3;
+}
+
+.navbar-brand {
+    margin-left: -20px;
+}
+
+.m2 {
+    margin-left: -20px;
 }
 
 div.left-menu {
