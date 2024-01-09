@@ -475,12 +475,6 @@ button.close {
 }
 
 
-::-webkit-resizer {
-    width: 2px;
-    height: 0px
-}
-
-
 
 /*ссылки*/
 .py-4 a,
