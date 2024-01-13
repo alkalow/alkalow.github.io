@@ -703,3 +703,39 @@ span.comments_count {
     padding: 3px;
     filter: hue-rotate(325deg) saturate(70%);
 }
+
+
+
+/*свечение записей*/
+div.post-content:hover {
+    padding-right: 7px;
+    padding-left: 7px;
+    box-shadow: 0px 0px 3px #ff62ac, 0px 0px 3px #ff62ac, 0px 0px 3px #ff62ac;
+    border: 3px solid transparent;
+    border-image: linear-gradient(to left top, #ff62ac 10%, transparent 30%, transparent 70%, #ff62ac 90%);
+    border-image-slice: 1;
+    min-height: auto;
+    transition: 0.5s; 
+}
+
+.post-title:hover {
+   text-decoration: none; 
+   color: #ff0b97;
+   text-shadow: 0 0 5px #f7e5f7;
+   transition: 0.5s; 
+}
+
+
+
+/*курсоры*/
+div#app {
+    cursor: url(https://i.ibb.co/VBf10Cg/164918333.png), pointer;
+}
+
+a,
+img,
+span,
+label.menu__btn,
+button {
+    cursor: url(https://i.ibb.co/GMkDb5s/164918444.png), pointer !important;
+}
