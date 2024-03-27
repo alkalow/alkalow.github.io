@@ -98,7 +98,7 @@ span.imagewrapper {
 h3.left-menu-text {
     background: linear-gradient(45deg, transparent, #eee5db, transparent) !important;
     font-size: 20px;
-    text-align: center;
+    text-align: center !important;
     border-top: 1px solid #948573;
     border-bottom: 1px solid #948573;
     font-family: 'Frenchpress freefont';
